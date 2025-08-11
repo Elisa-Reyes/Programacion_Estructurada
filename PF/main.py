@@ -3,7 +3,7 @@ from estanterias import estanteria
 from usuarios import usuarios
 import getpass
 
-#inicia sesion -> menu. todo va en funciones, aqui mantener simple para hacerlo limpio, seguro y bajo mis condiciones
+
 
 def main():
     op=True
@@ -99,4 +99,5 @@ def main_menu(usuario_id,biblioteca):
 
 
 if __name__ == "__main__":
+
     main() 
